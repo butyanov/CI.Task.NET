@@ -1,0 +1,19 @@
+name: .NET
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: dotnet build
+      - run: echo ${{ secrets.helloWorld }}
+  test:
+    runs-on: windows-latest
+    steps:
+      - run: dotnet test

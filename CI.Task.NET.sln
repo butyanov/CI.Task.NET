@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CI.Task.NET.UnitTests", "CI.Task.NET.UnitTests\CI.Task.NET.UnitTests.csproj", "{65F0D8A9-7F78-4CE8-AA5D-49769F33A237}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{1EEA8D3A-B3EA-49BD-8CCA-DCA08491F7BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{EAE1AE61-41F7-44AB-9E9C-77DA9AADA70A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65F0D8A9-7F78-4CE8-AA5D-49769F33A237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F0D8A9-7F78-4CE8-AA5D-49769F33A237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F0D8A9-7F78-4CE8-AA5D-49769F33A237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F0D8A9-7F78-4CE8-AA5D-49769F33A237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAE1AE61-41F7-44AB-9E9C-77DA9AADA70A} = {1EEA8D3A-B3EA-49BD-8CCA-DCA08491F7BA}
+	EndGlobalSection
+EndGlobal
